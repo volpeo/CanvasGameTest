@@ -15,6 +15,9 @@ TO-DO
 * add IA ?
 * add a camera
 * make the map larger
+* add reactor effect (and stabilizers)
+* refactor everything to be modular
+* add loot when ennemy is killed
 
 DONE 
 ----
