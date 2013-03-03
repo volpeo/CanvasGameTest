@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+window.onload = function() {
   //// Create the canvas
   var canvas = document.createElement("canvas");
   var ctx = canvas.getContext("2d");
@@ -245,4 +245,5 @@ $(document).ready(function(){
   reset();
   var then = Date.now();
   setInterval(main, 1); // Execute as fast as possible
-})
+
+}
