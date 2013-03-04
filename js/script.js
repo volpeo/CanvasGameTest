@@ -89,7 +89,7 @@ window.onload = function() {
     if (39 in keysDown) { // Player holding right
       hero.x = (hero.x + hero.speed * modifier) % canvas.width;
     }
-    if (17 in keysDown) { // Player shoot
+    if (88 in keysDown) { // Player shoot
       laserD = {
         x: hero.x + 20,
         y: hero.y,
